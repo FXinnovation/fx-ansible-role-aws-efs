@@ -20,7 +20,7 @@ Options:
 - path:           Local path to mount target folder in your EC2 instance
 - owner:          Owner of the folder (default value "root")
 - group:          Group of the folder (default value "root")
-- mode:           Permissions for the folder (default value "0644")
+- mode:           Permissions for the folder (default value "0755")
 - region:         In what region filesystem is
 - filesystem_id:  Filesystem ID
 
