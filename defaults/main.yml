@@ -21,4 +21,4 @@ aws_efs_paths:
     group: ''
     mode: ''
     region: ''
-    filesystem_id: ''
+    filesystem_id: '' 
