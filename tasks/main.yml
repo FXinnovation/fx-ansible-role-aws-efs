@@ -15,7 +15,7 @@
     mode:  "{{ item.mode }}"
     owner: "{{ item.owner }}"
     group: "{{ item.group }}"
-  loop: "{{ aws_efs_paths }}"
+  loop: "{{ aws_efs_paths|default() }}"
 
 - name: 'Get current Availibity Zone from AWS'
   uri:
@@ -31,4 +31,4 @@
     fstype: 'nfs4'
     opts:   'nfsvers=4.1'
     state:  'mounted'
-  loop: "{{ aws_efs_paths }}"
+  loop: "{{ aws_efs_paths|default() }}"
