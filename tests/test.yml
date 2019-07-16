@@ -3,4 +3,4 @@
   become: yes
   remote_user: 'root'
   roles:
-    - role: 'ansible-role-docker-aws-efs'
+    - role: 'ansible-role-aws-efs'
