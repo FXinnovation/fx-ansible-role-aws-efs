@@ -2,8 +2,6 @@
 
 # Mount mappings
 #
-# aws_efs_paths
-#
 # Options:
 # - path:           Local path to mount target folder in your EC2 instance
 # - owner:          Owner of the folder (default value "root")
@@ -11,3 +9,4 @@
 # - mode:           Permissions for the folder (default value "0644")
 # - region:         In what region filesystem is
 # - filesystem_id:  Filesystem ID
+aws_efs_paths: []
