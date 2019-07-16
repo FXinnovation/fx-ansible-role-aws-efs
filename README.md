@@ -1,7 +1,7 @@
 ansible-role-aws-efs
 ====================
 
-Mount EFS volume for CentOS / RHEL / Debian.  
+Mount EFS volume for CentOS / RHEL / Amazon Linux 2 / Debian
 
 Requirements
 ------------
