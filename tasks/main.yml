@@ -41,4 +41,3 @@
     owner: "{{ item.owner }}"
     group: "{{ item.group }}"
   loop: "{{ aws_efs_paths }}"
-
