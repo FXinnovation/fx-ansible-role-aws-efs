@@ -2,12 +2,12 @@
 
 ## 0.0.3
 
-* Fix permissions after EFS mount
+* feat: Fix permissions after EFS mount
 
 ## 0.0.2
 
-* Fix idempotency
+* test: Fix idempotency
 
 ## 0.0.1
 
-* First import
+* feat: First import
