@@ -32,3 +32,12 @@
     opts:   'nfsvers=4.1'
     state:  'mounted'
   loop: "{{ aws_efs_paths }}"
+
+- name: 'Fix mount directories permissions'
+  file:
+    path:  "{{ item.path }}"
+    state: 'directory'
+    mode:  "{{ item.mode }}"
+    owner: "{{ item.owner }}"
+    group: "{{ item.group }}"
+  loop: "{{ aws_efs_paths }}"
