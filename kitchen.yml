@@ -44,6 +44,12 @@ platforms:
         Name: "tk-ansible-role-aws-efs"
         kitchen: "true"
         packer: "true"
+      block_device_mappings:
+        - device_name: "/dev/sda1"
+          ebs:
+            volume_type: "gp2"
+            volume_size: 15
+            delete_on_termination: true
   - name: "centos-7"
     driver:
       image_search:
