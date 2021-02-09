@@ -2,6 +2,8 @@
 
 ## 0.1.1
 
+* fix: use pip3 to install ansible
+* chore: bump kitchen ansible to `2.9.17`
 * chore: bump pre-commit hooks
 
 ## 0.1.0
